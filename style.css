@@ -1,0 +1,30 @@
+:root {
+    --primary: #971111;
+}
+
+h2, p {
+    font-family: Arial, serif;
+    color:var(--primary);
+    text-align: center; 
+  }
+  
+  .wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+  }
+  
+  a { 
+    text-decoration: none;
+    color: #6c0c0c;
+  }
+  
+  a:hover {
+    color: #e35e5e;
+  }
+  
+  #p {
+    padding-bottom: 2em;
+    border-bottom: 2px solid var(--primary);
+  }
+  p { font-size: 10px; }
